@@ -37,6 +37,86 @@ A 4xx code indicates an error caused by the user, whereas 5xx codes tell the cli
 
 
 
-8.
+8.What does cache control on http response mean?
+Cache-control is an HTTP header used to specify browser caching policies in both client requests and server responses. Policies include how a resource is cached, where it's cached and its maximum age before expiring
+
+9.What is polling?
+Polling is the process where the computer or controlling device waits for an external device to check for its readiness or state, often with low-level hardware. For example, when a printer is connected via a parallel port, the computer waits until the printer has received the next character.
+
+10.What is long polling?
+Polling is a technique that allows the servers to push information to a client. 
+Long polling is a version of traditional polling that allows the server to send data to a client whenever available.
+
+11.What are web sockets?
+The WebSocket API is an advanced technology that makes it possible to open a two-way interactive communication session between the user's browser and a server. With this API, you can send messages to a server and receive event-driven responses without having to poll the server for a reply.
+
+12.How is websocket different from HTTP?
+Unlike HTTP, where you have to constantly request updates, with websockets, updates are sent immediately when they are available. WebSockets keeps a single, persistent connection open while eliminating latency problems that arise with HTTP request/response-based methods.
 
 
+13.What is HTTPS?
+HTTPS (Hypertext Transfer Protocol Secure) is an internet communication protocol that protects the integrity and confidentiality of data between the user's computer and the site. Users expect a secure and private online experience when using a website.
+
+14.What is Cross Origin Resource Sharing? ( CORS ) Why do we need it?
+Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources.
+
+
+15.What does Access-Control-Allow-Origin header do?
+The Access-Control-Allow-Origin header is included in the response from one website to a request originating from another website, and identifies the permitted origin of the request.
+
+
+16.What is clickjacking? How do you fix it?
+Image result for What is clickjacking? How do you fix it?
+Clickjacking is an attack that tricks a user into clicking a webpage element which is invisible or disguised as another element. This can cause users to unwittingly download malware, visit malicious web pages, provide credentials or sensitive information, transfer money, or purchase products online.
+
+A better approach to prevent clickjacking attacks is to ask the browser to block any attempt to load your website within an iframe. You can do it by sending the X-Frame-Options HTTP header.
+
+
+
+
+17.What are some performance metrics for your website?
+The Top Ten Website Performance Metrics
+Page Speed. Page speed is one of the most important metrics to be aware of, and it can have a far greater impact than you may even realize. ...
+Time to Title. ...
+Time to Start Render. ...
+Time to Interact. ...
+DNS Lookup Speed. ...
+Bounce Rate. ...
+Requests Per Second. ...
+Error Rate.
+
+
+
+
+18.What does the following term mean?
+Time to first byte,
+Page load time
+
+Time to First Byte (TTFB) refers to the time between the browser requesting a page and when it receives the first byte of information from the server.
+Page load time is the time it takes for a page to load, measured from navigation start to the start of the load event.
+
+
+
+19.What do CDN or Content Delivery Networks do? When do you need a CDN?
+A content delivery network (CDN) refers to a geographically distributed group of servers which work together to provide fast delivery of Internet content. A CDN allows for the quick transfer of assets needed for loading Internet content including HTML pages, javascript files, stylesheets, images, and videos.
+Anybody who has a website or mobile application that's likely to be requested by more than one user at a time can benefit from a CDN.
+
+
+
+20.What is the difference between Client Side Renderring and Server Side Renderring?
+Client-side rendering manages the routing dynamically without refreshing the page every time a user requests a different route. But server-side rendering is able to display a fully populated page on the first load for any route of the website, whereas client-side rendering displays a blank page first.
+
+Client-side and server-side are sometimes referred to as front-end and back-end. The client-side of a website refers to the web browser and the server-side is where the data and source code is stored
+
+
+
+21.What is Progressive Rendering?
+Progressive Rendering is the technique of sequentially rendering portions of a webpage in the server and streaming it to the client in parts without waiting for the whole page to rendered.
+
+
+22.What is the difference between Preloading and Prefetching resources?
+Preload is an early fetch instruction to the browser to request a resource needed for a page (key scripts, Web Fonts, hero images). Prefetch serves a slightly different use case — a future navigation by the user (e.g between views or pages) where fetched resources and requests need to persist across navigations.
+
+
+23.What are service workers?
+A service worker is a type of web worker. It's essentially a JavaScript file that runs separately from the main browser thread, intercepting network requests, caching or retrieving resources from the cache, and delivering push messages.
